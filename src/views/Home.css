@@ -1,0 +1,11 @@
+.Home .Personagens{
+    list-style: none;
+    justify-content: left;
+    display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+    .Home .Personagens{
+        justify-content: center;
+    }
+}
